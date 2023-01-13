@@ -1,0 +1,341 @@
+html {
+    background-color: #0E1B1E ;
+    margin: 0px 10%;
+}
+
+body {
+    background-image: url(images/Background.jpg);
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: repeat;
+    height: auto;
+    margin: 0px, auto;
+   
+}
+
+
+.head {
+    /* position: absolute; top: 0; left: 0; height: 100%; width: 100%; */
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.60);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    
+}
+
+.headcontact {
+    /* position: absolute; top: 0; left: 0; height: 100%; width: 100%; */
+    height: 100vh;
+    background-image: url(images/DJI_0345.JPG);
+    background-size: cover;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.headercontact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: white;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+}
+
+p {
+    line-height: 130%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.downarrow {
+    position: absolute; 
+    left: 50%;
+    bottom: 50px;
+}
+
+nav a {
+    padding: 0 30px;
+}
+
+.section { 
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.profile {
+    width: 400px;
+    height: auto;
+}
+
+.section1 {
+    padding-left: 150px;
+}
+
+.section1 p {
+    padding: 50px 0px;
+    line-break: auto;
+    line-height: 130%;
+}
+
+.button1 {
+    display: block;
+    border: 1px solid white; 
+    width: 150px;
+    font-size: 1rem;
+    background-color: #59331d00;
+    padding: 15px 20px;
+    border-radius: 10px 0px 10px 0px;
+    color: white;
+    text-decoration: none;  
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.button1:hover {
+    background-color: white;
+    color: #0E1B1E;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #96B9BB;
+}
+
+#titles {
+    background-color: #0E1B1E;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 50px auto;
+    width: 70%;
+    border-radius: 0px 20px 0px 20px;   
+}
+
+.titles {
+    background-color: #0E1B1E;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 50px auto;
+    width: 70%;
+    border-radius: 0px 20px 0px 20px;   
+}
+
+.cases {
+    background-color: #0E1B1E;
+    padding: 50px 0px;
+  
+    
+    
+}
+
+.cases h2 {
+    padding: 30px 0px; 
+}
+
+.cases p {
+    padding-bottom: 30px;
+}
+
+.case1 {
+    width:50%
+    
+}
+
+.caseimg1 {
+    display: flex;
+    justify-content: center;
+}
+
+.case2 {
+    padding-top: 100px;
+    
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    padding: 10px;
+    color: white;
+}
+
+.card1 {
+    border-radius: 0px 20px 0px 0px;
+    background-color: #0E1B1E;
+    border: 5px solid #0E1B1E;
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+.card2 {
+    border-radius: 0px 0px 0px 20px;
+    background-color: #0E1B1E;
+    border: 5px solid #0E1B1E;
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+.card3 {
+    border-radius: 0px 20px 0px 0px;
+    background-color: #0E1B1E;
+    border: 5px solid #0E1B1E;
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+.card4 {
+    border-radius: 0px 0px 0px 20px;
+    background-color: #0E1B1E;
+    border: 5px solid #0E1B1E;
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+.icon {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.cards h2 {
+    padding: 20px 0px 40px 0px;
+    text-align: center;
+}
+
+.cards p {
+    line-height: 150%;
+    padding-bottom: 50px;
+    margin: 0px 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card1 img {
+    margin-bottom: -2px;
+}
+
+.card3 img {
+    margin-bottom: -3px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.60);
+    padding: 50px 0px;
+    text-align: center;
+}
+
+footer h2 {
+    padding: 10px 0px 20px 0px;
+}
+
+footer a {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 10px;
+    text-align: center;
+    
+
+}
+
+footer i {
+    color: white;
+    padding: 10px 0px;
+}
+
+footer .icongroup2, .icongroup3 {
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.contactmain {
+    display: flex;
+    margin: 0, auto;
+    
+}
+
+.icongroup1, .icongroup2, .icongroup3 {
+    display: flex;
+    color: black;
+}
+
+.contactinfo i {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.contactmain h1 {
+    font-size: 2.5rem;
+    color: black;
+    padding: 100px;
+    width: 50%;
+    line-height: 150%;
+    
+}
+
+.contactmain h2 {
+    color: black;
+    padding: 50px 50px 30px 50px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+.contactmain p {
+    padding: 20px 50px;
+    color: black;
+}
+
+.contactinfo a {
+    color:black;
+    padding: 20px 50px;
+    display: block;
+}
+.contactinfo {
+    background-image: url(images/Text.svg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 500px;
+    margin-top: 100px;
+
+}
+

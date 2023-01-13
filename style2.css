@@ -1,0 +1,84 @@
+html {
+    background-image: url(images/WW20220505.jpg) ;
+    margin: 0px 10%;
+    background-repeat: repeat;
+    height: auto;
+}
+
+body {
+
+    height: auto;
+    margin: 0px, auto;
+    background-color: rgb(243, 243, 243);
+   
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: black;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: black;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+
+}
+
+a:hover {
+    color: #96B9BB;
+}
+
+.headercontact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+nav a {
+    padding: 0 30px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.60);
+    padding: 50px 0px;
+    text-align: center;
+}
+
+footer h2 {
+    padding: 10px 0px 20px 0px;
+    color: white
+}
+
+footer a {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 10px;
+    text-align: center;
+    
+
+}
+
+footer i {
+    color: white;
+    padding: 10px 0px;
+}
+
+footer .icongroup2, .icongroup3 {
+    align-items: center;
+    justify-content: center;
+}
