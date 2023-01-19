@@ -13,6 +13,7 @@ body {
    
 }
 
+ 
 
 .head {
     /* position: absolute; top: 0; left: 0; height: 100%; width: 100%; */
@@ -86,11 +87,15 @@ nav a {
     padding: 0 30px;
 }
 
+.mob-wrapper {
+    display: none;
+}
+
 .section { 
-    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 80%;
     margin: auto;
     position: absolute;
     top: 50%;
@@ -105,7 +110,7 @@ nav a {
 }
 
 .section1 {
-    padding-left: 150px;
+    padding-left: 50px;
 }
 
 .section1 p {
@@ -187,10 +192,12 @@ a:hover {
     
 }
 
+
 .cards {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    flex-basis: 100%;
     margin-bottom: 50px;
     padding: 10px;
     color: white;
@@ -200,7 +207,7 @@ a:hover {
     border-radius: 0px 20px 0px 0px;
     background-color: #0E1B1E;
     border: 5px solid #0E1B1E;
-    width: 40%;
+    flex-basis: 40%;
     margin-bottom: 50px;
 }
 
@@ -208,7 +215,7 @@ a:hover {
     border-radius: 0px 0px 0px 20px;
     background-color: #0E1B1E;
     border: 5px solid #0E1B1E;
-    width: 40%;
+    flex-basis: 40%;
     margin-bottom: 50px;
 }
 
@@ -216,7 +223,7 @@ a:hover {
     border-radius: 0px 20px 0px 0px;
     background-color: #0E1B1E;
     border: 5px solid #0E1B1E;
-    width: 40%;
+    flex-basis: 40%;
     margin-bottom: 50px;
 }
 
@@ -224,7 +231,7 @@ a:hover {
     border-radius: 0px 0px 0px 20px;
     background-color: #0E1B1E;
     border: 5px solid #0E1B1E;
-    width: 40%;
+    flex-basis: 40%;
     margin-bottom: 50px;
 }
 
@@ -339,3 +346,70 @@ footer .icongroup2, .icongroup3 {
 
 }
 
+@media (max-width:992px) {
+    .cards {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+     }
+
+    .card1, .card2, .card3, .card4 {
+        flex-basis: 100%; 
+    }  
+    
+    .section img {
+        width: 300px;
+    }
+
+    .caseimg1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .mob-wrapper {
+        display: block;
+        text-align: right;
+    }
+
+    .mob-nav a {
+        display: block;
+        text-align: right;
+        padding: 10px 0;
+ 
+     }
+
+     .contactmain {
+        display: flex;
+        margin: 0, auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactinfo {
+        margin: 0;
+        justify-content: center;
+    }
+}
+
+@media (max-width:768px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section img {
+        width: 200px;
+        padding: 50px 0;
+    }
+
+    .section1 {
+        padding-left: 50px;
+        justify-content: center;;
+    }
+}  
