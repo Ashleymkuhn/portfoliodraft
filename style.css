@@ -398,10 +398,37 @@ footer .icongroup2, .icongroup3 {
 }
 
 @media (max-width:768px) {
-    .section {
+    
+    html {
+        margin: 0 auto;
+    }
+
+    .cases {
+        padding: 50px 50px;
+    }
+    
+    .head {
+        height: auto;
+        position: relative;
         display: flex;
         flex-direction: column;
+
     }
+    
+    .section {
+        margin-top: 300px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        width: auto;
+        height: auto;
+    }
+
+   .header {
+    height: auto;
+    position: relative;
+   }
 
     .section img {
         width: 200px;
@@ -409,7 +436,48 @@ footer .icongroup2, .icongroup3 {
     }
 
     .section1 {
-        padding-left: 50px;
-        justify-content: center;;
+        padding: 0 50px;
+        justify-content: center;}
+
+    .downarrow {
+        display: none;
     }
+
+   .headcontact {
+    height: 1000px;
+   }
+    .contactmain h1 {
+        display: none;
+    }
+
+    .contactinfo {
+        width: 100%;
+        background-image: none;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icongroup1, .icongroup2, .icongroup3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icongroup1 i {
+        padding: 0;  
+    }
+
+    .icongroup2 i {
+        padding: 0;  
+    }
+
+    .icongroup3 i {
+        padding: 0;  
+    }
+
+   
+
 }  
